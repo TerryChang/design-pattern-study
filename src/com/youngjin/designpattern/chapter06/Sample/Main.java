@@ -1,7 +1,7 @@
 package com.youngjin.designpattern.chapter06.Sample;
 
-import framework.Manager;
-import framework.Product;
+import com.youngjin.designpattern.chapter06.Sample.framework.Manager;
+import com.youngjin.designpattern.chapter06.Sample.framework.Product;
 
 public class Main {
     public static void main(String[] args) {

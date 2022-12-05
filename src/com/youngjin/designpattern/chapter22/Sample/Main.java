@@ -1,7 +1,7 @@
 package com.youngjin.designpattern.chapter22.Sample;
 
-import command.*;
-import drawer.*;
+import com.youngjin.designpattern.chapter22.Sample.command.*;
+import com.youngjin.designpattern.chapter22.Sample.drawer.*;
 
 import java.awt.*;
 import java.awt.event.*;

@@ -1,7 +1,7 @@
 package com.youngjin.designpattern.chapter18.A4;
 
-import game.Memento;
-import game.Gamer;
+import com.youngjin.designpattern.chapter18.A4.game.Memento;
+import com.youngjin.designpattern.chapter18.A4.game.Gamer;
 
 import java.io.*;
 

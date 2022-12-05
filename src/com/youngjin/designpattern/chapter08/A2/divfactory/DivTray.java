@@ -1,7 +1,7 @@
 package com.youngjin.designpattern.chapter08.A2.divfactory;
 
-import factory.Item;
-import factory.Tray;
+import com.youngjin.designpattern.chapter08.A2.factory.Item;
+import com.youngjin.designpattern.chapter08.A2.factory.Tray;
 
 public class DivTray extends Tray {
     public DivTray(String caption) {

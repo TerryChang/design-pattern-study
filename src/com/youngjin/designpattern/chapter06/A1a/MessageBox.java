@@ -1,6 +1,6 @@
 package com.youngjin.designpattern.chapter06.A1a;
 
-import framework.Product;
+import com.youngjin.designpattern.chapter06.A1a.framework.Product;
 
 public class MessageBox extends Product {
     private char decochar;

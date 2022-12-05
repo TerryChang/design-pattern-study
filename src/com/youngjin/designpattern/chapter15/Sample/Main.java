@@ -1,6 +1,6 @@
 package com.youngjin.designpattern.chapter15.Sample;
 
-import pagemaker.PageMaker;
+import com.youngjin.designpattern.chapter15.Sample.pagemaker.PageMaker;
 
 public class Main {
     public static void main(String[] args) {

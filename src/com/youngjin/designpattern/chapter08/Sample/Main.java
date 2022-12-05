@@ -1,6 +1,6 @@
 package com.youngjin.designpattern.chapter08.Sample;
 
-import factory.*;
+import com.youngjin.designpattern.chapter08.Sample.factory.*;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package com.youngjin.designpattern.chapter23.A1;
 
-import language.*;
-import turtle.*;
+import com.youngjin.designpattern.chapter23.A1.language.*;
+import com.youngjin.designpattern.chapter23.A1.turtle.*;
 
 import java.awt.*;
 import java.awt.event.*;

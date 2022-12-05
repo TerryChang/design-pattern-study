@@ -1,6 +1,6 @@
 package com.youngjin.designpattern.chapter06.A1b;
 
-import framework.ConcreteProduct;
+import com.youngjin.designpattern.chapter06.A1b.framework.ConcreteProduct;
 
 public class UnderlinePen extends ConcreteProduct {
     private char ulchar;

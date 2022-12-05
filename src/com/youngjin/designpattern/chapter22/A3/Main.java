@@ -1,7 +1,7 @@
 package com.youngjin.designpattern.chapter22.A3;
 
-import command.*;
-import drawer.*;
+import com.youngjin.designpattern.chapter22.A3.command.*;
+import com.youngjin.designpattern.chapter22.A3.drawer.*;
 
 import java.awt.*;
 import java.awt.event.*;

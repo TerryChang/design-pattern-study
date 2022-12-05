@@ -1,6 +1,6 @@
 package com.youngjin.designpattern.chapter06.Sample;
 
-import framework.Product;
+import com.youngjin.designpattern.chapter06.Sample.framework.Product;
 
 public class UnderlinePen implements Product {
     private char ulchar;

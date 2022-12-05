@@ -1,6 +1,6 @@
 package com.youngjin.designpattern.chapter22.A2.drawer;
 
-import command.Command;
+import com.youngjin.designpattern.chapter22.A2.command.Command;
 import java.awt.Point;
 
 public class DrawCommand implements Command {

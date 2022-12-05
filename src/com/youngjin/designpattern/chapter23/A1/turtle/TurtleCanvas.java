@@ -1,7 +1,7 @@
 package com.youngjin.designpattern.chapter23.A1.turtle;
 
-import language.Executor;
-import language.ExecutorFactory;
+import com.youngjin.designpattern.chapter23.A1.language.Executor;
+import com.youngjin.designpattern.chapter23.A1.language.ExecutorFactory;
 import java.awt.*;
 
 public class TurtleCanvas extends Canvas {

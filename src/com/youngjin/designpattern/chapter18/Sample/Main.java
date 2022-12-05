@@ -1,12 +1,12 @@
 package com.youngjin.designpattern.chapter18.Sample;
 
-import game.Memento;
-import game.Gamer;
+import com.youngjin.designpattern.chapter18.Sample.game.Memento;
+import com.youngjin.designpattern.chapter18.Sample.game.Gamer;
 
 public class Main {
     public static void main(String[] args) {
-        Gamer gamer = new Gamer(100)			// 최초 소지금은 100
-        Memento memento = gamer.createMemento()	// 최초 상태를 저장해 둔다
+        Gamer gamer = new Gamer(100);			// 최초 소지금은 100
+        Memento memento = gamer.createMemento();	// 최초 상태를 저장해 둔다
 
         // 게임 시작 
         for (int i = 0; i < 100; i++) {

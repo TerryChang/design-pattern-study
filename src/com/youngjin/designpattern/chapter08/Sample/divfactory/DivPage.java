@@ -1,7 +1,7 @@
 package com.youngjin.designpattern.chapter08.Sample.divfactory;
 
-import factory.Item;
-import factory.Page;
+import com.youngjin.designpattern.chapter08.Sample.factory.Item;
+import com.youngjin.designpattern.chapter08.Sample.factory.Page;
 
 public class DivPage extends Page {
     public DivPage(String title, String author) {

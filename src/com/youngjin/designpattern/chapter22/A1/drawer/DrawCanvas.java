@@ -1,6 +1,6 @@
 package com.youngjin.designpattern.chapter22.A1.drawer;
 
-import command.MacroCommand;
+import com.youngjin.designpattern.chapter22.A1.command.MacroCommand;
 
 import java.awt.Color;
 import java.awt.Graphics;

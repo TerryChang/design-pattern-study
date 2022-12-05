@@ -1,9 +1,9 @@
 package com.youngjin.designpattern.chapter08.A2.listfactory;
 
-import factory.Factory;
-import factory.Link;
-import factory.Page;
-import factory.Tray;
+import com.youngjin.designpattern.chapter08.A2.factory.Factory;
+import com.youngjin.designpattern.chapter08.A2.factory.Link;
+import com.youngjin.designpattern.chapter08.A2.factory.Page;
+import com.youngjin.designpattern.chapter08.A2.factory.Tray;
 
 public class ListFactory extends Factory {
     @Override

@@ -1,6 +1,6 @@
 package com.youngjin.designpattern.chapter08.A2.listfactory;
 
-import factory.Link;
+import com.youngjin.designpattern.chapter08.A2.factory.Link;
 
 public class ListLink extends Link {
     public ListLink(String caption, String url) {

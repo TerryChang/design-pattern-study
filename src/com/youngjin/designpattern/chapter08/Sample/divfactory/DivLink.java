@@ -1,6 +1,6 @@
 package com.youngjin.designpattern.chapter08.Sample.divfactory;
 
-import factory.Link;
+import com.youngjin.designpattern.chapter08.Sample.factory.Link;
 
 public class DivLink extends Link {
     public DivLink(String caption, String url) {

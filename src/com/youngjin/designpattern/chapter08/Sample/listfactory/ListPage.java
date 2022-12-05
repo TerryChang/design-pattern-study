@@ -1,7 +1,7 @@
 package com.youngjin.designpattern.chapter08.Sample.listfactory;
 
-import factory.Item;
-import factory.Page;
+import com.youngjin.designpattern.chapter08.Sample.factory.Item;
+import com.youngjin.designpattern.chapter08.Sample.factory.Page;
 
 public class ListPage extends Page {
     public ListPage(String title, String author) {

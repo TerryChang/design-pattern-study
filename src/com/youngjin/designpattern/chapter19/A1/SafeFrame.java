@@ -8,6 +8,8 @@ import java.awt.Label;
 import java.awt.Panel;
 import java.awt.TextArea;
 import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class SafeFrame extends Frame implements ActionListener, Context {
     private TextField textClock = new TextField(60);		// 현재 시간 표시
@@ -41,17 +43,43 @@ public class SafeFrame extends Frame implements ActionListener, Context {
         add(panel, BorderLayout.SOUTH);
 
         // 버튼이 눌렸을 때의 리스너를 람다식으로 설정
+        /*
         buttonUse.addActionListener(e -> state.doUse(this));
         buttonAlarm.addActionListener(e -> state.doAlarm(this));
         buttonPhone.addActionListener(e -> state.doPhone(this));
         buttonExit.addActionListener(e -> System.exit(0));
-
+        */
+        
+        // 출판사에서 배포되는 예제 샘플코드는 위의 코드를 사용하지만 이렇게 할 경우 컴파일이 이루어지지 않았다.
+        // 부록 A 연습문제 해답 에서도 동일하게 사용되어 있기 때문에 jdk 15 로 컴파일 테스트를 해보지 않아서 잘못된 코드라 말할수는 없지만
+        // jdk 15 미만에서도 컴파일 가능하게끔 하기 위해 부록 A에 있는 소스가 아닌 19장 본문에 있는 코딩형태로 수정했다
+        buttonUse.addActionListener(this);
+        buttonAlarm.addActionListener(this);
+        buttonPhone.addActionListener(this);
+        buttonExit.addActionListener(this);
+        
         // 표시 
         pack();
         setVisible(true);
     }
 
-    // 시간 설정 
+    @Override
+	public void actionPerformed(ActionEvent e) {
+		System.out.println(e.toString());
+		if(e.getSource() == buttonUse) {
+			state.doUse(this);
+		} else if(e.getSource() == buttonAlarm) {
+			state.doAlarm(this);
+		} else if(e.getSource() == buttonPhone) {
+			state.doPhone(this);
+		} else if(e.getSource() == buttonExit) {
+			System.exit(0);
+		} else {
+			System.out.println("?");
+		}
+	}
+
+	// 시간 설정 
     @Override
     public void setClock(int hour) {
         String clockstring = String.format("현재 시간은 %02d:00", hour);
