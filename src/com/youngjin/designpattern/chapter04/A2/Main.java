@@ -1,8 +1,8 @@
 package com.youngjin.designpattern.chapter04.A2;
 
-import framework.Factory;
-import framework.Product;
-import idcard.IDCardFactory;
+import com.youngjin.designpattern.chapter04.Sample.framework.Factory;
+import com.youngjin.designpattern.chapter04.Sample.framework.Product;
+import com.youngjin.designpattern.chapter04.Sample.idcard.IDCardFactory;
 
 public class Main {
     public static void main(String[] args) {

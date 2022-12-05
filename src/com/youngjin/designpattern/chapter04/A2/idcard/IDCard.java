@@ -1,6 +1,6 @@
 package com.youngjin.designpattern.chapter04.A2.idcard;
 
-import framework.Product;
+import com.youngjin.designpattern.chapter04.A2.framework.Product;
 
 public class IDCard extends Product {
     private String owner;

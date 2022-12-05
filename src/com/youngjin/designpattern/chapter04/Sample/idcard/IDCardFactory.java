@@ -1,7 +1,7 @@
 package com.youngjin.designpattern.chapter04.Sample.idcard;
 
-import framework.Factory;
-import framework.Product;
+import com.youngjin.designpattern.chapter04.Sample.framework.Factory;
+import com.youngjin.designpattern.chapter04.Sample.framework.Product;
 
 public class IDCardFactory extends Factory {
     @Override

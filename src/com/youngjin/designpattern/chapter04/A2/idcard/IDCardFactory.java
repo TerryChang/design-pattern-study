@@ -1,7 +1,7 @@
 package com.youngjin.designpattern.chapter04.A2.idcard;
 
-import framework.Factory;
-import framework.Product;
+import com.youngjin.designpattern.chapter04.A2.framework.Factory;
+import com.youngjin.designpattern.chapter04.A2.framework.Product;
 
 public class IDCardFactory extends Factory {
     private int serial = 100;
